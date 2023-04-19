@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity position="-0.5 2  20">
+          <a-camera></a-camera>
+      </a-entity>
+      <!--antenna-->
+      <a-sphere position="0 6.7 -3.2" radius="0.38" color="red"></a-sphere>
+      <a-cylinder position="0 6 -3.2" radius="0.07" height="0.75" color="black"></a-cylinder>
+      <a-sphere position="0 5.1 -3.2" radius="0.6" color="yellow"></a-sphere>
+      <!--antenna-->
+
+
+
+      <!--head-->
+      <a-box position="0 4.3 -3" color="#1a75ff" height="1.5" depth="2" width="2.25"></a-box>
+      <!--head-->
+
+      
+      <!--eyes-->
+      <a-sphere position="0.5 4.5 -2.15" radius="0.38" color="white"></a-sphere>
+      <a-sphere position="-0.5 4.5 -2.15" radius="0.38" color="white"></a-sphere>
+      <!--eyes-->
+
+      
+      <!--eyeboll-->
+      <a-sphere position="0.5 4.5 -1.8" radius="0.12" color="black"></a-sphere>
+      <a-sphere position="-0.5 4.5 -1.8" radius="0.12" color="black"></a-sphere>
+      <!--eyeboll-->
+
+
+      <!--smile-->
+      <a-ring position="0 3.9 -1.8" color="#de878b" radius-inner="0.45" radius-outer="0.6" rotation="-70 0 0"></a-ring>
+      <!--smile-->
+      
+
+      <!--neck-->
+      <a-box position="0 3.4 -3" color="#ff9966" height="0.3" width="1.5"></a-box>
+      <!--neck-->
+
+
+
+      <!--body-->
+      <a-box position="0 1.9 -3" color="#1a75ff" height="2.8" width="3.1" depth="2"></a-box>
+      <!--body-->
+
+
+      <!--body design-->
+
+
+        <!--upperrow-->
+        <a-box position="-1 2.8 -2.25" color="yellow" height="0.7" width="0.7"></a-box>
+        <a-box position="0 2.8 -2.25" color="orange" height="0.7" width="0.7"></a-box>
+        <a-box position="1 2.8 -2.25" color="yellow" height="0.7" width="0.7"></a-box>
+        <!--upperrow-->
+
+
+        <!--midrow-->
+        <a-box position="-1 1.95 -2.25" color="red" height="0.7" width="0.7"></a-box>
+        <a-box position="0 1.95 -2.25" color="purple" height="0.7" width="0.7"></a-box>
+        <a-box position="1 1.95 -2.25" color="red" height="0.7" width="0.7"></a-box>
+        <!--midrow-->
+
+
+        <!--lowerrow-->
+        <a-box position="-1 1.1 -2.25" color="yellow" height="0.7" width="0.7"></a-box>
+        <a-box position="0 1.1 -2.25" color="orange" height="0.7" width="0.7"></a-box>
+        <a-box position="1 1.1 -2.25" color="yellow" height="0.7" width="0.7"></a-box>
+        <!--lowerrow-->
+
+
+      <!--body design-->
+
+
+      <!--hand-->
+
+
+        <!--right hand-->
+        <a-cylinder position="1.9 2.3 -3" radius="0.2" height="1.5" color="#FFC65D" rotation="0 0 40"></a-cylinder>
+        <a-sphere position="2.4 1.72 -3" radius="0.2" color="#FFC65D"></a-sphere>
+        <a-cylinder position="2.8 2.2 -3" radius="0.2" height="1.2" color="#FFC65D" rotation="0 0 -40"></a-cylinder>
+        <!--right hand-->
+
+
+        <!--lefthand-->
+        <a-cylinder position="-1.9 2.3 -3" radius="0.2" height="1.5" color="#FFC65D" rotation="0 0 -40"></a-cylinder>
+        <a-sphere position="-2.4 1.72 -3" radius="0.2" color="#FFC65D"></a-sphere>
+        <a-cylinder position="-2.8 2.2 -3" radius="0.2" height="1.2" color="#FFC65D" rotation="0 0 40"></a-cylinder>
+        <!--lefthand-->
+
+        <!--rightwrist-->
+        <a-icosahedron position="-3.4 3 -3" color="#1a75ff" radius="0.5" rotation="0 0 -30"></a-icosahedron>
+        <!--rightwrist-->
+        
+        <!--leftwrist-->
+        <a-icosahedron position="3.4 3 -3" color="#1a75ff" radius="0.5" rotation="0 0 30"></a-icosahedron>
+        <!--leftwrist-->
+      
+      
+      <!--hand-->
+
+
+
+      <!--upperleg-->
+      <a-cylinder position="0.65 0.1 -3" radius="0.3" height="0.77" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="-0.65 0.1 -3" radius="0.3" height="0.77" color="#FFC65D"></a-cylinder>
+      <!--upperleg-->
+
+
+      <!--knee1-->
+      <a-cylinder position="0.65 -0.48 -3" radius="0.3" height="0.1" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="-0.65 -0.48 -3" radius="0.3" height="0.1" color="#FFC65D"></a-cylinder>
+      <!--knee1-->
+
+
+      <!--knee2-->
+      <a-cylinder position="0.65 -0.72 -3" radius="0.3" height="0.1" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="-0.65 -0.72 -3" radius="0.3" height="0.1" color="#FFC65D"></a-cylinder>
+      <!--knee2-->
+
+
+      <!--lowerleg-->
+      <a-cylinder position="0.65 -1.29 -3" radius="0.3" height="0.75" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="-0.65 -1.29 -3" radius="0.3" height="0.75" color="#FFC65D"></a-cylinder>
+      <!--lowerleg-->
+
+
+      
+      <!--foot-->
+      <a-sphere position="0.65 -2.2 -3" radius="0.7" color="red"></a-sphere>
+      <a-sphere position="-0.65 -2.2 -3" radius="0.7" color="red"></a-sphere>
+      <!--foot-->
+
+      <a-plane position="0 -2.1 -3" rotation="-90 0 0" width="13" height="6" color="black"></a-plane>
+      <a-sky color="white"></a-sky>
+    </a-scene>
+  </body>
+</html>
